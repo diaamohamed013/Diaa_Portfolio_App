@@ -1,0 +1,65 @@
+$myNameColor: #f15e74a1;
+$callBtnColor: #fc665f;
+$waBtnColor: #128c7e;
+
+@mixin Radius($r) {
+    border-radius: $r;
+    -webkit-border-radius: $r;
+    -moz-border-radius: $r;
+    -ms-border-radius: $r;
+    -o-border-radius: $r;
+}
+
+@mixin Translation($x, $y) {
+    transition: $x $y;
+    -webkit-transition: $x $y;
+    -moz-transition: $x $y;
+    -ms-transition: $x $y;
+    -o-transition: $x $y;
+}
+
+.about {
+    line-height: 1.8;
+    .about-img {
+        border: 8px solid $myNameColor;
+        @include Radius(12px);
+        img {
+            @include Radius(4px);
+        }
+    }
+    .about-content {
+        h3 {
+            color: #333;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                width: 50px;
+                height: 2px;
+                background-color: $waBtnColor;
+            }
+        }
+    }
+    .about-contact {
+        .btn {
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            color: #fff;
+            @include Translation(all, 0.3s);
+            &:nth-child(1) {
+                background-color: #843632;
+                &:hover {
+                    background-color: #2a1110;
+                }
+            }
+            &:nth-child(2) {
+                background-color: $waBtnColor;
+                &:hover {
+                    background-color: #0e7367;
+                }
+            }
+        }
+    }
+}

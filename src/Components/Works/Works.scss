@@ -1,0 +1,110 @@
+$myNameColor: #fbb0bc;
+
+@mixin Translate($x, $y) {
+    transform: translate($x, $y);
+    -webkit-transform: translate($x, $y);
+    -moz-transform: translate($x, $y);
+    -ms-transform: translate($x, $y);
+    -o-transform: translate($x, $y);
+}
+
+@mixin Scale($x, $y) {
+    transform: scale($x, $y);
+    -webkit-transform: scale($x, $y);
+    -moz-transform: scale($x, $y);
+    -ms-transform: scale($x, $y);
+    -o-transform: scale($x, $y);
+}
+
+@mixin Transition($p, $d) {
+    transition: $p $d;
+    -webkit-transition: $p $d;
+    -moz-transition: $p $d;
+    -ms-transition: $p $d;
+    -o-transition: $p $d;
+}
+
+.active {
+    color: $myNameColor !important;
+}
+
+.work {
+    background-color: #f8f8f8;
+    .work-tabs {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 20px;
+        .btn {
+            font-size: 17px;
+            padding: 8px 16px;
+            color: #333;
+            outline: none;
+            border: 0;
+            @include Transition(color, 0.3s);
+            &:hover {
+                color: $myNameColor;
+            }
+        }
+    }
+    .work-card {
+        position: relative;
+        overflow: hidden;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(0, 94, 116, 0.6);
+            visibility: hidden;
+            opacity: 0;
+            @include Transition(all, 0.4s);
+        }
+        .card {
+            border: 0;
+            .card-img {
+                overflow: hidden;
+                img {
+                    @include Transition(all, 0.4s);
+                }
+            }
+        }
+        .work-card-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 111;
+            @include Translate(-50%, 300%);
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-evenly;
+            @include Transition(all, 0.4s);
+            a {
+                color: #fff;
+                font-size: 17px;
+                text-align: center;
+                @include Transition(all, 0.4s);
+                &:hover {
+                    color: $myNameColor;
+                }
+            }
+        }
+        &:hover {
+            .work-card-overlay {
+                @include Translate(-50%, -50%);
+            }
+            &::after {
+                opacity: 1;
+                visibility: visible;
+            }
+            img {
+                @include Scale(1.2, 1.2);
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+$myNameColor: #f15e74a1;
+
+.common {
+    padding: 12px 8px;
+    font-size: 18px;
+}
+
+@mixin clorTran($a, $d) {
+    transition: $a $d;
+    -webkit-transition: $a $d;
+    -moz-transition: $a $d;
+    -ms-transition: $a $d;
+    -o-transition: $a $d;
+}
+
+.navbar {
+    background-color: #fff;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    .navbar-brand {
+        padding: 12px 8px;
+        letter-spacing: 5px;
+        span {
+            &:nth-child(odd) {
+                font-size: 30px;
+                color: $myNameColor;
+            }
+            &:nth-child(even) {
+                font-size: 16px;
+                color: #333;
+            }
+        }
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        .nav-link {
+            @extend .common;
+            color: #333;
+            @include clorTran(color, 0.3s);
+            &:hover {
+                color: $myNameColor;
+            }
+        }
+        .active {
+            @extend .common;
+            color: $myNameColor;
+        }
+    }
+}
+
+
+// @media screen and (max-width: 991px) {
+//     .active,
+//     .nav-link {
+//         padding: 15px 8px !important;
+//     }
+// }

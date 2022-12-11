@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+
+$textColor: #fcf4f4;
+$seceondColor: #317f57;
+$myNameColor: #f15e74a1;
+
+@mixin Radius($r) {
+    border-radius: $r;
+    -webkit-border-radius: $r;
+    -moz-border-radius: $r;
+    -ms-border-radius: $r;
+    -o-border-radius: $r;
+}
+
+@mixin Transition($p, $d) {
+    transition: $p $d;
+    -webkit-transition: $p $d;
+    -moz-transition: $p $d;
+    -ms-transition: $p $d;
+    -o-transition: $p $d;
+}
+
+.home {
+    height: 100vh;
+    color: $textColor;
+    background: linear-gradient(to left top, rgb(69, 104, 220), rgb(176, 106, 179));
+    text-align: center;
+    .home-overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 100vh;
+        .home-content {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .home-soacial {
+                a {
+                    margin-right: 15px;
+                    color: $textColor;
+                    i {
+                        font-size: 18px;
+                        @include Transition(color, 0.3s);
+                    }
+                    &:hover {
+                        i {
+                            color: $myNameColor;
+                        }
+                    }
+                    
+                }
+            }
+            .home-description {
+                h1 {
+                    font-size: 5rem;
+                    letter-spacing: 5px;
+                    color: $myNameColor;
+                    font-family: "Rubik Distressed", cursive;
+                }
+                p{
+                    margin: 15px 0;
+                    font-size: 16px;
+                    line-height: 1.8;
+                }
+            }
+            .home-contact {
+                .btn {
+                    padding: 10px 20px;
+                    @include Transition(all, 0.3s);
+                    &:nth-child(1) {
+                        border: 1px solid $textColor;
+                        color: $textColor;
+                        &:hover {
+                            background-color: $myNameColor;
+                            border-color: $myNameColor;
+                        }
+                    }
+                    &:nth-child(2) {
+                        background-color: $myNameColor;
+                        color: $textColor;
+                        &:hover {
+                            background-color: transparent;
+                            border-color: $myNameColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
