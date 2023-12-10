@@ -51,8 +51,8 @@ const data = [
     {
         id: 6,
         imgSrc: movieApp,
-        demoLink: "https://diaamohamed013.github.io/movie_p/#/home",
-        gitHubLink: "https://github.com/diaamohamed013/movie_p.git",
+        demoLink: "https://diaamohamed013.github.io/react_movieApp/",
+        gitHubLink: "https://github.com/diaamohamed013/react_movieApp",
         genre: "react.js"
     },
     {
@@ -71,34 +71,27 @@ const data = [
     },
     {
         id: 9,
-        imgSrc: todoReact,
-        demoLink: "https://diaamohamed013.github.io/note/#/home",
-        gitHubLink: "https://github.com/diaamohamed013/note.git",
-        genre: "react.js"
-    },
-    {
-        id: 10,
         imgSrc: todoJS,
         demoLink: "https://diaamohamed013.github.io/todo_task/index.html",
         gitHubLink: "https://github.com/diaamohamed013/todo_task.git",
         genre: "javascript"
     },
     {
-        id: 11,
+        id: 10,
         imgSrc: curdReact,
         demoLink: "https://diaamohamed013.github.io/books/",
         gitHubLink: "https://github.com/diaamohamed013/books.git",
         genre: "react.js"
     },
     {
-        id: 12,
+        id: 11,
         imgSrc: diaaFolio,
         demoLink: "https://diaamohamed013.github.io/portfolio/",
         gitHubLink: "https://github.com/diaamohamed013/portfolio.git",
         genre: "design"
     },
     {
-        id: 13,
+        id: 12,
         imgSrc: logIn,
         demoLink: "https://diaamohamed013.github.io/signUp_logIn/",
         gitHubLink: "https://github.com/diaamohamed013/signUp_logIn.git",
