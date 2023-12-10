@@ -24,6 +24,14 @@ $myNameColor: #fbb0bc;
     -o-transition: $p $d;
 }
 
+@mixin bRedius ($r){
+    border-radius: $r;
+    -webkit-border-radius: $r;
+    -moz-border-radius: $r;
+    -ms-border-radius: $r;
+    -o-border-radius: $r;
+}
+
 .active {
     color: $myNameColor !important;
 }
@@ -52,6 +60,8 @@ $myNameColor: #fbb0bc;
     .work-card {
         position: relative;
         overflow: hidden;
+        height: 100%;
+        @include bRedius(10px);
         &::after {
             content: "";
             position: absolute;
@@ -66,9 +76,12 @@ $myNameColor: #fbb0bc;
         }
         .card {
             border: 0;
+            height: 100%;
             .card-img {
                 overflow: hidden;
+                height: 100%;
                 img {
+                    height: 100%;
                     @include Transition(all, 0.4s);
                 }
             }

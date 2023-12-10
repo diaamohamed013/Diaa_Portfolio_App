@@ -7,7 +7,7 @@ import movieJS from '../images/movieJs.PNG'
 import engagePhoto from '../images/engage_photo.PNG'
 import curdReact from '../images/crudReact.PNG'
 import logIn from '../images/loginJs.PNG'
-import todoReact from '../images/todoReact.PNG'
+import githubRepos from '../images/githubRepos.PNG'
 import todoJS from '../images/todoJs.PNG'
 import weatherJS from '../images/weatherJS.PNG'
 import diaaFolio from '../images/diaafolio.PNG'
@@ -95,6 +95,13 @@ const data = [
         imgSrc: logIn,
         demoLink: "https://diaamohamed013.github.io/signUp_logIn/",
         gitHubLink: "https://github.com/diaamohamed013/signUp_logIn.git",
+        genre: "javascript"
+    },
+    {
+        id: 13,
+        imgSrc: githubRepos,
+        demoLink: "https://diaamohamed013.github.io/github_repo_lists/index.html",
+        gitHubLink: "https://github.com/diaamohamed013/github_repo_lists/settings/pages",
         genre: "javascript"
     }
 
