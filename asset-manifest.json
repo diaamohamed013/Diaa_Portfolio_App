@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Diaa_Portfolio_App/static/css/main.003e0bf3.css",
-    "main.js": "/Diaa_Portfolio_App/static/js/main.f9946345.js",
+    "main.css": "/Diaa_Portfolio_App/static/css/main.e79dd1ea.css",
+    "main.js": "/Diaa_Portfolio_App/static/js/main.583f232b.js",
     "static/js/787.30237536.chunk.js": "/Diaa_Portfolio_App/static/js/787.30237536.chunk.js",
     "static/media/movieJs.PNG": "/Diaa_Portfolio_App/static/media/movieJs.8b1cf03f7591dfc2d299.PNG",
     "static/media/movieReact.PNG": "/Diaa_Portfolio_App/static/media/movieReact.88a0e4d98bbc8a8840b4.PNG",
     "static/media/weatherJS.PNG": "/Diaa_Portfolio_App/static/media/weatherJS.85b91604efdaa5a5ab28.PNG",
     "static/media/fashi.PNG": "/Diaa_Portfolio_App/static/media/fashi.387bc3d5779db466c251.PNG",
     "static/media/Na_Nov_26.jpg": "/Diaa_Portfolio_App/static/media/Na_Nov_26.9511f86aab13c699e931.jpg",
+    "static/media/githubRepos.PNG": "/Diaa_Portfolio_App/static/media/githubRepos.e0a6270f8021100f1a5a.PNG",
     "static/media/engage_photo.PNG": "/Diaa_Portfolio_App/static/media/engage_photo.42922aecd5e70cb4467f.PNG",
     "static/media/fa-solid-900.ttf": "/Diaa_Portfolio_App/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/diaafolio.PNG": "/Diaa_Portfolio_App/static/media/diaafolio.ca6c8dbe4aa2fecc9bfc.PNG",
@@ -21,7 +22,6 @@
     "static/media/todoJs.PNG": "/Diaa_Portfolio_App/static/media/todoJs.3298882526476dd66921.PNG",
     "static/media/fa-regular-400.ttf": "/Diaa_Portfolio_App/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
     "static/media/animat-checkmark.gif": "/Diaa_Portfolio_App/static/media/animat-checkmark.502991dc75554d3ba6d5.gif",
-    "static/media/todoReact.PNG": "/Diaa_Portfolio_App/static/media/todoReact.210a0f5ddbef57a8fe2d.PNG",
     "static/media/loginJs.PNG": "/Diaa_Portfolio_App/static/media/loginJs.1f7c0964296821230761.PNG",
     "static/media/crudJS.PNG": "/Diaa_Portfolio_App/static/media/crudJS.82025e02e35318d303d3.PNG",
     "static/media/crudReact.PNG": "/Diaa_Portfolio_App/static/media/crudReact.c7093ac2890484b16b88.PNG",
@@ -30,12 +30,12 @@
     "static/media/fa-v4compatibility.ttf": "/Diaa_Portfolio_App/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
     "static/media/fa-v4compatibility.woff2": "/Diaa_Portfolio_App/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/Diaa_Portfolio_App/index.html",
-    "main.003e0bf3.css.map": "/Diaa_Portfolio_App/static/css/main.003e0bf3.css.map",
-    "main.f9946345.js.map": "/Diaa_Portfolio_App/static/js/main.f9946345.js.map",
+    "main.e79dd1ea.css.map": "/Diaa_Portfolio_App/static/css/main.e79dd1ea.css.map",
+    "main.583f232b.js.map": "/Diaa_Portfolio_App/static/js/main.583f232b.js.map",
     "787.30237536.chunk.js.map": "/Diaa_Portfolio_App/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.003e0bf3.css",
-    "static/js/main.f9946345.js"
+    "static/css/main.e79dd1ea.css",
+    "static/js/main.583f232b.js"
   ]
 }
