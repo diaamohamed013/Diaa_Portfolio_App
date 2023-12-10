@@ -1,4 +1,4 @@
-$myNameColor: #f15e74;
+$myNameColor: #1551B7;
 
 .common {
     padding: 12px 8px;
@@ -30,7 +30,7 @@ $myNameColor: #f15e74;
                 color: $myNameColor;
             }
             &:nth-child(even) {
-                font-size: 16px;
+                font-size: 20px;
                 color: #333;
             }
         }
