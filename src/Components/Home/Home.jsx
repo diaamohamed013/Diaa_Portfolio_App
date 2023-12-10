@@ -36,19 +36,19 @@ export default function Home() {
                                         </Link>
                                     </div>
                                     <div className="home-soacial">
-                                        <a href='mailto:diaamohamed013@gmail.com'>
+                                        <a href='mailto:diaamohamed013@gmail.com' aria-label="mail">
                                             <i className="fas fa-envelope"></i>
                                         </a>
-                                        <a href='https://github.com/diaamohamed013' target="_b">
+                                        <a href='https://github.com/diaamohamed013' target="_b" aria-label="github">
                                             <i className='fab fa-github'></i>
                                         </a>
-                                        <a href='https://www.linkedin.com/in/diaa-mohamed-59853b155/' target="_b">
+                                        <a href='https://www.linkedin.com/in/diaa-mohamed-59853b155/' target="_b" aria-label="linkidin">
                                             <i className='fab fa-linkedin'></i>
                                         </a>
-                                        <a href='https://www.facebook.com/diaamohamed212/' target="_b">
+                                        <a href='https://www.facebook.com/diaamohamed212/' target="_b" aria-label="facebook">
                                             <i className='fab fa-facebook-f'></i>
                                         </a>
-                                        <a href="tel:+01118398483">
+                                        <a href="tel:+01118398483" aria-label="phone">
                                             <i className="fas fa-phone"></i>
                                         </a>
                                     </div>
