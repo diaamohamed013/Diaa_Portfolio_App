@@ -5,7 +5,7 @@ import './NavBar.scss'
 export default function NavBar() {
     return (
         <>
-            <nav className='navbar navbar-expand-lg shadow'>
+            <nav className='navbar navbar-expand-lg'>
                 <div className="container">
                     <Link className="navbar-brand"
                         to="home">
