@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import './NavBar.scss'
 
 export default function NavBar() {
@@ -7,8 +7,8 @@ export default function NavBar() {
         <>
             <nav className='navbar navbar-expand-lg shadow'>
                 <div className="container">
-                    <NavLink className="navbar-brand"
-                        to="/home">
+                    <Link className="navbar-brand"
+                        to="home">
                         <span>
                             <span>
                                 D
@@ -23,7 +23,7 @@ export default function NavBar() {
                                 a
                             </span>
                         </span>
-                    </NavLink>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon navbar-light"></span>
                     </button>
@@ -33,19 +33,19 @@ export default function NavBar() {
                                 <NavLink className={({ isActive }) =>
                                     isActive ? 'active' : 'nav-link'
                                 }
-                                    to="/home">Home</NavLink>
+                                    to="home">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className={({ isActive }) =>
                                     isActive ? 'active' : 'nav-link'
                                 }
-                                    to="/aboutMe">AboutMe</NavLink>
+                                    to="aboutMe">AboutMe</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className={({ isActive }) =>
                                     isActive ? 'active' : 'nav-link'
                                 }
-                                    to="/works">Projects</NavLink>
+                                    to="works">Projects</NavLink>
                             </li>
                         </ul>
                     </div>

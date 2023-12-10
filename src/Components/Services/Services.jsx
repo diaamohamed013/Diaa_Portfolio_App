@@ -1,5 +1,8 @@
 import React from 'react'
 import './Services.scss'
+import service1 from '../../gifs/animat-checkmark.gif'
+import service2 from '../../gifs/animat-customize.gif'
+import service3 from '../../gifs/animat-responsive.gif'
 
 export default function Services() {
     return (
@@ -17,7 +20,7 @@ export default function Services() {
                                 <div className="col-lg-4">
                                     <div className="card border-0 shadow">
                                         <div className="card-img">
-                                            <img src="gifs/animat-checkmark.gif" alt="service1" />
+                                            <img src={service1} alt="service1" />
                                         </div>
                                         <div className="card-body">
                                             <h3 className='h5'>Simple and Clean</h3>
@@ -30,7 +33,7 @@ export default function Services() {
                                 <div className="col-lg-4">
                                     <div className="card border-0 shadow">
                                         <div className="card-img">
-                                            <img src="gifs/animat-customize.gif" alt="service1" />
+                                            <img src={service2} alt="service2" />
                                         </div>
                                         <div className="card-body">
                                             <h3 className='h5'>Easy to Customize</h3>
@@ -43,7 +46,7 @@ export default function Services() {
                                 <div className="col-lg-4">
                                     <div className="card border-0 shadow">
                                         <div className="card-img">
-                                            <img src="gifs/animat-responsive.gif" alt="service1" />
+                                            <img src={service3} alt="service3" />
                                         </div>
                                         <div className="card-body">
                                             <h3 className='h5'>Fully Responsive</h3>
