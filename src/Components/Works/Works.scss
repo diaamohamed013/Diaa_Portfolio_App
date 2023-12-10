@@ -1,4 +1,4 @@
-$myNameColor: #fbb0bc;
+$myNameColor: #c5233e;
 
 @mixin Translate($x, $y) {
     transform: translate($x, $y);
@@ -32,10 +32,6 @@ $myNameColor: #fbb0bc;
     -o-border-radius: $r;
 }
 
-.active {
-    color: $myNameColor !important;
-}
-
 .work {
     background-color: #f8f8f8;
     .work-tabs {
@@ -55,6 +51,9 @@ $myNameColor: #fbb0bc;
             &:hover {
                 color: $myNameColor;
             }
+        }
+        .active {
+            color: $myNameColor;
         }
     }
     .work-card {
