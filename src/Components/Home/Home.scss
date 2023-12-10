@@ -37,6 +37,11 @@ $myNameColor: #f15e74a1;
             .home-soacial {
                 a {
                     margin-right: 15px;
+                    width: 48px;
+                    height: 48px;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
                     color: $textColor;
                     i {
                         font-size: 18px;
@@ -47,7 +52,6 @@ $myNameColor: #f15e74a1;
                             color: $myNameColor;
                         }
                     }
-                    
                 }
             }
             .home-description {
@@ -57,7 +61,7 @@ $myNameColor: #f15e74a1;
                     color: $myNameColor;
                     font-family: "Rubik Distressed", cursive;
                 }
-                p{
+                p {
                     margin: 15px 0;
                     font-size: 16px;
                     line-height: 1.8;
