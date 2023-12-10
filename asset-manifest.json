@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Diaa_Portfolio_App/static/css/main.cbaaf7fe.css",
+    "main.css": "/Diaa_Portfolio_App/static/css/main.c1fc7592.css",
     "main.js": "/Diaa_Portfolio_App/static/js/main.ee2b9469.js",
     "static/js/787.30237536.chunk.js": "/Diaa_Portfolio_App/static/js/787.30237536.chunk.js",
     "static/media/movieJs.PNG": "/Diaa_Portfolio_App/static/media/movieJs.8b1cf03f7591dfc2d299.PNG",
@@ -30,12 +30,12 @@
     "static/media/fa-v4compatibility.ttf": "/Diaa_Portfolio_App/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
     "static/media/fa-v4compatibility.woff2": "/Diaa_Portfolio_App/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/Diaa_Portfolio_App/index.html",
-    "main.cbaaf7fe.css.map": "/Diaa_Portfolio_App/static/css/main.cbaaf7fe.css.map",
+    "main.c1fc7592.css.map": "/Diaa_Portfolio_App/static/css/main.c1fc7592.css.map",
     "main.ee2b9469.js.map": "/Diaa_Portfolio_App/static/js/main.ee2b9469.js.map",
     "787.30237536.chunk.js.map": "/Diaa_Portfolio_App/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbaaf7fe.css",
+    "static/css/main.c1fc7592.css",
     "static/js/main.ee2b9469.js"
   ]
 }
