@@ -11,6 +11,8 @@ import githubRepos from '../images/githubRepos.PNG'
 import todoJS from '../images/todoJs.PNG'
 import weatherJS from '../images/weatherJS.PNG'
 import diaaFolio from '../images/diaafolio.PNG'
+import quoteImg from '../images/quoteTask.PNG'
+
 
 const data = [
     {
@@ -101,10 +103,16 @@ const data = [
         id: 13,
         imgSrc: githubRepos,
         demoLink: "https://diaamohamed013.github.io/github_repo_lists/index.html",
-        gitHubLink: "https://github.com/diaamohamed013/github_repo_lists/settings/pages",
+        gitHubLink: "https://github.com/diaamohamed013/github_repo_lists",
+        genre: "javascript"
+    },
+    {
+        id: 14,
+        imgSrc: quoteImg,
+        demoLink: "https://diaamohamed013.github.io/quoteTask/",
+        gitHubLink: "https://github.com/diaamohamed013/quoteTask",
         genre: "javascript"
     }
-
 ];
 
 export default data;
